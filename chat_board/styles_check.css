@@ -1,0 +1,71 @@
+/* 全体のスキン */
+body{
+  background-color: lightyellow;
+}
+
+.warning_error{
+border: 1px solid;
+color: red;
+display: inline-block;
+padding: 0 20px;
+margin: 5px 0 0 0;
+}
+
+/*  以下はstyles_sample.phpのコードを再利用
+
+header内でのストラクチャー */
+header{
+  margin-bottom: 10px;
+}
+
+header p{
+  margin: 0;
+}
+
+header .name{
+  width: 250px;
+}
+
+header .title{
+  width: 400px;
+}
+
+header .textarea{
+  width: 500px;
+  height: 100px;
+}
+
+/* 送信または入力画面戻る項目のストラクチャー */
+ ul{
+  padding-left: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+ li{
+  display: inline-block;
+  padding-right: 5px;
+}
+
+ /* modalなので投稿するをおすまで現れない */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
