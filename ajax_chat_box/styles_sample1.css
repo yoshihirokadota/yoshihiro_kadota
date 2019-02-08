@@ -1,0 +1,78 @@
+
+/* 全体のスキン */
+body{
+  background-color: lightyellow;
+}
+
+/* header内でのストラクチャー */
+header{
+  margin-bottom: 10px;
+}
+
+header p{
+  margin: 0;
+}
+
+header .name{
+  width: 250px;
+}
+
+header .title{
+  width: 400px;
+}
+
+header .textarea{
+  width: 500px;
+  height: 100px;
+}
+
+/* 掲示板のコンテナー */
+.wrapper{
+  margin: 0 50px;
+}
+
+.contents{
+  border: 1px solid;
+  margin-bottom: 20px;
+}
+/*タイトル、名前、投稿日、IDのストラクチャー指定 */
+.topContents ul{
+  padding-left: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.topContents li{
+  display: inline-block;
+  padding-right: 5px;
+}
+
+/*タイトル、名前、投稿日、IDのliの中のスキン指定 */
+ .title-color{
+  color: green;
+}
+
+ .name-color{
+  color: blue;
+}
+
+/*以下掲示板の画像とメッセージ部分
+
+ 掲示板の画像とメッセージを横に並べる */
+.bottomContents{
+  height: 300px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+/* 掲示板の画像について縦横の中央に来るように指定 */
+.left-image{
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
